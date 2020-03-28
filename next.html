@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKEY管理1</title>
+    <link rel="stylesheet" href="css/next.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="header">
+                <img src="images/矢量智能对象@2x.png" alt="图标">
+                <span>协卡助手</span>
+                <div class="v">V1.0</div>
+            </div>
+        </header>
+        <div class="section">
+            <div class="left">
+                <ul>
+                    <li class="active">
+                        <span class="blue"></span>
+                        <img src="images/usb图标.png" alt="">
+                        <span>文鼎创Ukey</span>
+                    </li>
+                    <li>
+                        <span class="blue"></span>
+                        <img src="images/usb图标(1).png" alt="">
+                        <span>明华Ukey</span>
+                    </li>
+                    <li>
+                        <span class="blue"></span>
+                        <img src="images/usb图标(1).png" alt="">
+                        <span>华大Ukey</span>
+                    </li>
+                </ul>
+                <button>一键检测</button>
+            </div>
+            <div class="center">
+                <ul>
+                    <li>
+                        <span class="green"></span>
+                        <h4>
+                            神兵信息安全公司A证书
+                        </h4>
+                        <span class="span-left">有效期:2020-06-30  &nbsp; &nbsp; &nbsp;&nbsp;持有者:陈阳</span>
+                        <span class="left-icon"></span>
+                    </li>
+                    <li class="active">
+                        <span class="green"></span>
+                        <h4>神兵信息安全公司B证书</h4>
+                        <span class="span-left">有效期:2020-06-30  &nbsp; &nbsp; &nbsp;&nbsp;持有者:陈阳</span>
+                        <span class="left-icon"></span>
+                    </li>
+                    <li>
+                        <span class="green"></span>
+                        <h4>神兵信息安全公司C证书</h4>
+                        <span class="span-left">有效期:2020-08-30   &nbsp; &nbsp; &nbsp;&nbsp;持有者:陈阳</span>
+                        <span class="left-icon"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="content">
+                        <h4>证书详情</h4>
+                    <div class="wrap">
+                        <p><label for="">证书名称：</label>神兵信息安全公司B证书</p>
+                        <p><label for="">序列号：</label>33998866775550011</p>
+                        <p><label for="">申请日期：</label>2018-06-30</p>
+                        <p><label for="">证书有效期：</label>2020-06-30</p>
+                        <p><label for="">证书颁发者：</label>上海数字证书认证中心</p>
+                        <p><label for="">证书算法：</label>SM2</p>
+                        <p><label for="">证书印章：</label>
+                        </p>
+                    </div>
+                    <img src="images/印章.png" alt="印章">
+                    <div class="footer">
+                        <a href="">修改口令</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript">
+        // $('.section .left ul li').click(function(){
+        //     $(".section .left ul .active").removeClass("active");
+        //     $(this).addClass("active");
+        // });
+        // $('.section .center ul li').click(function(){
+        //     $(".section .center ul .active").removeClass("active");
+        //     $(this).addClass("active");
+        // });
+        $('.section ul li').click(function(){
+            $(this).parent('ul').find(".active").removeClass("active");
+            $(this).addClass("active");
+        })
+    </script>
+    
+</body>
+</html>

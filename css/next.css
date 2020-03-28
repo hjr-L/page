@@ -1,0 +1,240 @@
+/* next页面 */
+.main{
+    width:960px;
+    height:640px;
+    position: relative;
+    margin: 0 auto;
+  }
+  header{
+      /* position: absolute;
+      top: 0;
+      left: 0; */
+      height: 60px;
+      width: 100%;
+      background-color: #fff;
+      /* vertical-align: middle; */
+      box-shadow:0px 1px 9px 0px rgba(51,85,160,0.14);
+  }
+  .header{
+      padding: 15px;
+  }
+  header img{
+      vertical-align: middle;
+  }
+  header span{
+      width: 84px;
+      height: 20px;
+      color:rgba(101, 101, 101,1);
+      font-size: 20px;
+      line-height: 34px;
+    vertical-align: middle;
+
+  }
+  header .v{
+      display: inline-block;
+      width: 40px;
+      height: 20x;
+      border:1px solid #6b6b6b;
+      border-radius: 10px;
+      font-size: 12px;
+      text-align: center;
+    vertical-align: middle;
+
+  }
+.section{
+    position: relative;
+    width: 960px;
+    height: 580px;
+    background:linear-gradient(252deg,rgba(237,244,254,1),rgba(241,245,255,1));
+}
+.section .left{
+    float: left;
+    width:200px;
+    height:595px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 1px 9px 0px rgba(71,126,243,0.22);
+}
+.section ul li:first-child{
+    border-top: none;    
+}
+.section .left ul .active{
+    position: relative;
+    color: #3D8DF5;
+}
+.section .left ul .active .blue{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 33px;
+    width:5px;
+    height:20px;
+    background:rgba(70,151,230,1);
+}
+.section .left ul li{
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 25px;
+    /* 应该不是这样让li里面的内容居中 */
+    width: 174px;
+    height: 50px;
+    text-align: left;
+    border-top:1px solid #F6F6F6;
+}
+.section .left ul li .blue{
+    display: none;
+}
+.section .left ul li img{
+    vertical-align: middle;
+}
+.section .left ul li span{
+    width:77px;
+    height:17px;
+    font-size:16px;
+    font-weight:500;
+    color:rgba(132,147,180,1);
+    line-height:34px;
+    vertical-align: middle;
+}
+.section .left button{
+    margin-left: 42px;
+    /* 用了很笨的margin让他居中 */
+    margin-top: 50px;
+    /* 不知道为什么距离很近，自己设置了一个距离 */
+    padding-left: 20px;
+    /* 为了给图片一点间距 */
+    width:110px;
+    height:30px;
+    border:2px solid rgba(186, 199, 226, 1);
+    border-radius:15px;
+    background: url(../images/jiance-2.png) no-repeat 8px 6px;
+    font-weight:400;
+    color:rgba(132,147,180,1);
+}
+/* 中间栏 */
+.center{
+    float: left;
+    width: 280px;
+    height: 595px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 1px 9px 0px rgba(51,85,160,0.14);
+}
+.center ul{
+    width: 280px;
+    background: #4BA6F9;
+    overflow: hidden;
+}
+
+.center ul .active{
+    width: 278px;
+    margin-left: 3px;
+}
+.center ul li{
+    position: relative;
+    width: 280px;
+    height: 116px;
+    /* margin-left: 3px; */
+    text-align: center;
+    background-color: #fff;
+    border-top:1px solid #E7EBEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center ul li .green{
+    position: absolute;
+    top: 45px;
+    left: 16px;
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:#D2D2D2;
+}
+.center ul li .left-icon{
+    display: none;
+}
+.center ul .active .green{
+    background:rgba(34,172,56,1);
+}
+.center ul .active .left-icon{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 268px;
+    width:8px;
+    height:28px;
+    background:rgba(132,147,180,1);
+    opacity:0.32;
+    border-radius:4px;
+}
+.center ul .active h4{
+    color: #565E71;
+}
+.center ul li h4{
+    color: #838CA1;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+}
+.center ul li h4 span{
+    width:12px;
+    height:12px;
+    background:rgba(34,172,56,1);
+    border-radius:50%;
+}
+.center ul li span{
+    color: #B7C0D5;
+    font-size: 12px;
+}
+.right{
+    position: absolute;
+    top: 19px;
+    left: 496px;
+    box-shadow:0px 0px 9px 0px rgba(51,85,160,0.14);
+}
+.right .content{
+    width: 430px;
+    height: 540px;
+    padding: 0 12px 0 8px;
+    background: #fff;
+    font-size: 16px;
+    position: relative;
+}
+.right .content img{
+    position: absolute;
+    top: 275px;
+    left: 170px;
+}
+.section .right .content h4{
+    display: inline-block;
+    width: 430px;
+    height: 50px;
+    color: #565E71;
+    font-weight: 500;
+    border-bottom: 1px solid #F1F5FF;
+    line-height: 50px;
+    padding-left: 12px;
+}
+.right .content .wrap{
+    color: #838CA1;
+    font-weight:500;
+    padding-left: 12px;
+}
+.right .content .wrap p{
+    height: 40px;
+    line-height: 40px;
+    
+}
+.right .content .footer{
+    position: absolute;
+    top: 462px;
+    left: 161px;
+}
+.right .content .footer a{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-image: url(../images/矩形\ 10.png);
+    color: #fff;
+}

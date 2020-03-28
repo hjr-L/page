@@ -1,0 +1,98 @@
+body{
+  width:480px;
+  height:320px;
+  position: relative;
+  margin: 0 auto;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.header{
+    padding: 7.5px;
+}
+header img{
+    vertical-align: middle;
+}
+header span{
+    width: 42px;
+    height: 10px;
+    color:rgba(101, 101, 101,1);
+    font-size: 10px;
+    line-height: 17px;
+    vertical-align: middle;
+
+}
+header .v{
+    display: inline-block;
+    width: 20px;
+    height: 10x;
+    border:1px solid #6b6b6b;
+    border-radius: 5px;
+    font-size: 6px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+section{
+    width: 100%;
+    height: 290px;
+    padding-top: 30px;
+    background:linear-gradient(252deg,rgba(237,244,254,1),rgba(241,245,255,1));
+    text-align: center;
+}
+section .content{
+position: relative;
+}
+section .main-left,section .main-right{
+    position: absolute;
+    top: 33.5px;
+    width:154px;
+    height:121px;
+    border:1px solid rgba(156, 173, 195, 1);
+    border-radius:9px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    /* 上边距用了padding，导致高度是实际高度加上padding-top等于设计图高度 */
+}
+section .main-left{
+    left: 39.5px;
+}
+section .main-right{
+    left: 292.5px;
+}
+section .main-left p,section .main-right p{
+    height: 10px;
+    font-size:10px;
+    font-weight:400;
+    color:rgba(62,62,62,1);
+    line-height:17px;
+}
+section .warn{
+    position: absolute;
+    top: 253px;
+    left: 128px;
+}
+section .warn img{
+    vertical-align: middle;
+}
+section .warn .span{
+    font-size:9px;
+    font-weight:400;
+    color:rgba(62,62,62,1);
+    line-height:17px;
+    vertical-align: middle;
+}
+footer{
+    position: absolute;
+    right: 0;
+    top: 285px;
+}
+
+
